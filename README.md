@@ -10,17 +10,17 @@ A presentation on how to containerize a kotlin - ktor server app using docker an
 ```
  
 
- ## build the container - docker
+ ## Build the container - docker
  ```
 docker build -t app .
  ```
 
-### running the container -docker 
+### Running the container -docker 
 ```
 docker run -p 8100:8100 -p
 ```
 
-## Running the docker compose container service
+## Build and Run the docker compose container service
  
  ```
   docker compose up
