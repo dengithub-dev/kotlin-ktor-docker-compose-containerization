@@ -18,15 +18,16 @@ docker build -t app .
 ### running the container -docker 
 ```
 docker run -p 8100:8100 -p
+```
 
- ## Running the docker compose container service
+## Running the docker compose container service
  
  ```
   docker compose up
   docker compose up -d --build
  ```
  
- ## Run the app
+## Run the app
 
  ``` 
  localhost:8100 
