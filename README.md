@@ -2,29 +2,28 @@
 
 A presentation on how to containerize a kotlin - ktor server app using docker and docker compose
 
-## Build the app using gradlew
+## Build the app using gradew
 - run the command in root folder
 
 ```
  gradlew build
 ```
  
-
- ## Build the container - docker
+## Build the container - docker
  ```
 docker build -t app .
  ```
 
 ## Running the container -docker 
 ```
-docker run -p 8100:8100 app
+docker run -p 8100:8100 -p
 ```
 
 ## Build and Run the docker compose container service
  
  ```
  docker compose up -d --build
- docker compose up
+docker compose up
   
  ```
  
