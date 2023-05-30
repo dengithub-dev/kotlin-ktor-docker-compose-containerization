@@ -45,13 +45,16 @@ docker run -p 5000:5000 -p
     ```
 ## Run project online
 - You can simulate the image [here](https://labs.play-with-docker.com/)
-- Make sure the pull the project - docker pull dendockerhub/ktor-docker-sample
+- Make sure to pull the project 
+```
+    docker pull dendockerhub/ktor-docker-sample
+```
 
 Below is a demonstration in Docker play
 ![play-docker](https://github.com/dengithub-dev/kotlin-ktor-docker-compose-containerization/blob/main/tmp/play-docker.png)
 
  Reference: 
- https://ktor.io/docs/docker.html#prepare-docker
- https://www.youtube.com/watch?v=pTFZFxd4hOI
- https://stackoverflow.com/questions/48038969/an-image-does-not-exist-locally-with-the-tag-while-pushing-image-to-local-regis
+ - https://ktor.io/docs/docker.html#prepare-docker
+ - https://www.youtube.com/watch?v=pTFZFxd4hOI
+ - https://stackoverflow.com/questions/48038969/an-image-does-not-exist-locally-with-the-tag-while-pushing-image-to-local-regis
  
