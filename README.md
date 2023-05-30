@@ -48,7 +48,7 @@ docker run -p 5000:5000 -p
 - Make sure the pull the project - docker pull dendockerhub/ktor-docker-sample
 
 Below is a demonstration in Docker play
-![play-docker](https://github.com/dengithub-dev/kotlin-ktor-docker-compose-containerization/tree/main/tmp/play-docker.PNG)
+![play-docker](https://github.com/dengithub-dev/kotlin-ktor-docker-compose-containerization/tree/main/tmp/play-docker.png)
 
  Reference: 
  https://ktor.io/docs/docker.html#prepare-docker
