@@ -3,10 +3,5 @@ services:
     build:
       context: .
     ports:
-      - "8070:8070"
-    database:
-      build: database
-      restart: always
-      hostname: postgres
-      ports:
-        - "5432:5432"
+      - "5000:5000"
+    
