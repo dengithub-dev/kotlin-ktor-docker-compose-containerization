@@ -37,7 +37,8 @@ docker run -p 5000:5000 -p
 - public [repository](https://hub.docker.com/repository/docker/dendockerhub/ktor-docker-sample) 
 - Before pushing remotely, in your local, tag the image id as demonstrated below
   ```
-  docker tag ea15926e670c dendockerhub/ktor-docker-sample:latest
+  docker tag <imageId> dendockerhub/ktor-docker-sample:latest
+  docker tag eeeeeeeee dendockerhub/ktor-docker-sample:latest
   ```
 - Then, push the image to remote
     ```
