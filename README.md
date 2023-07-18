@@ -16,7 +16,7 @@ docker build -t app .
 
 ## Running the container -docker 
 ```
-docker run -p 5000:5000 -p
+docker run -p 5000:5000 app
 ```
 
 ## Build and Run the docker compose container service
